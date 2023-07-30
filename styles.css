@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-color: #A0BFE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left top, #c5dff8, #b5d1f0, #a5c4e8, #97b6df, #89a8d7, #7ca8d9, #6ca9da, #5aa9da, #40b7df, #2bc5dd, #32d1d5, #50dcc9);
+    
+}
+.container{
+    border: none;
+    padding: 40px;
+    height: 450px;
+    width: 380px;
+    box-shadow: 1px 1px 4px 5px #C5DFF8 ;
+}
+h1{
+    color: #4A55A2;
+    font-size: 30px;
+    padding-bottom: 15px ;
+}
+.inputBox{
+    padding-bottom: 13px;
+}
+.passBox{
+    width: 300px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px #C5DFF8;
+    color: black;
+}
+.range{
+    width: 300px;
+}
+.row{
+    color: whitesmoke;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    font-weight: 600;
+    display: flex;
+}
+.row p, .row label{
+    flex-basis: 100%;
+}
+.btnBox{
+    padding-top: 30px;
+}
+.btn{
+    background-color: #4A55A2;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blanchedalmond;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 3px 4px #4A55A2;
+}
+.row input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
